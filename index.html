@@ -125,10 +125,15 @@
       </div>
       <!-- Center nav links -->
       <div class="hidden lg:flex items-center gap-8">
-        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Home</a>
-        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">About Us</a>
-        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Events</a>
-        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Gallery</a>
+        <a href="#"
+          class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Home</a>
+        <a href="#"
+          class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">About
+          Us</a>
+        <a href="#"
+          class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Events</a>
+        <a href="#"
+          class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Gallery</a>
       </div>
       <div class="flex items-center gap-3">
         <a href="#"
@@ -173,32 +178,32 @@
     <!-- Sidebar Navigation (As per JSON) -->
     <!-- Main Content Canvas -->
     <main class="w-full">
-      <!-- Hero Section — split layout -->
-      <section class="flex flex-col md:flex-row" style="min-height:90vh;">
-        <!-- Left: dark panel, text pinned to bottom -->
-        <div class="md:w-1/2 flex flex-col justify-end px-[4vw] pb-16 md:pb-15" style="background-color: #002452;">
-          <div>
-            <h1 class="leading-tight mb-6"
-              style="color:#ffffff; font-family: var(--sans); font-feature-settings: 'kern', 'liga', 'ss01'; font-weight: 400; font-size: 5.2rem; letter-spacing: -.01em; line-height: .97;">
+      <!-- Hero Section — full-bleed parallax -->
+      <section
+        style="min-height:90vh; position:relative; background-image:url('assets/gettyimages002.jpg'); background-attachment:fixed; background-size:cover; background-position:center; display:flex; align-items:center;">
+        <!-- Subtle overlay for text readability -->
+        <div style="position:absolute;inset:0;background:rgba(0,0,0,0.35);pointer-events:none;"></div>
+        <!-- Content pinned to bottom-left -->
+        <div style="position:relative;z-index:1;" class="px-[4vw] w-full">
+          <div style="width:95%;">
+            <span class="font-label-caps text-label-caps block mb-6 mt-4"
+              style="color:#c83002;letter-spacing:.18em;">PEOPLE
+              OF INDIAN ORIGIN · CHAMBER OF COMMERCE</span>
+            <h1 class="leading-tight mb-8"
+              style="color:#ffffff; font-family: var(--sans); font-feature-settings: 'kern', 'liga', 'ss01'; font-weight: 800; font-size: 6.0rem; letter-spacing: -.01em; line-height: .97;">
               The Global Voice
               of the Indian Diaspora
               in Business.
             </h1>
-            <!-- <p class="text-white/80 font-body-md text-body-md mb-8 max-w-lg leading-relaxed">
-              PIOCCI is the global chamber of commerce for the Indian diaspora — bringing together entrepreneurs,
-              industry leaders, professionals and institutions to foster trade, investment and partnerships across 50+
-              countries.
-            </p> -->
+            <p class="font-body-md text-body-md mb-6" style="color:#ffffff;opacity:0.9;width:100%;">
+              People of Indian Origin Chamber of Commerce and Industry connects diaspora businesses worldwide and
+              assists in building economic bridges between India and the global market.
+            </p>
             <button
               class="bg-secondary hover:opacity-90 text-white font-label-caps text-label-caps py-4 px-8 btn-diagonal transition-all mt-4">
               JOIN THE MOVEMENT
             </button>
           </div>
-        </div>
-        <!-- Right: full-bleed image -->
-        <div class="md:w-1/2 relative overflow-hidden" style="min-height:420px;">
-          <img alt="PIOCCI Global Business Networking" class="absolute inset-0 w-full h-full object-cover object-center"
-            src="assets/gettyimages002.jpg" />
         </div>
       </section>
       <!-- Strategic Initiatives: Horizontal Bento Grid -->
@@ -643,7 +648,8 @@
                 </div>
                 <span class="font-label-caps text-label-caps text-on-primary-container italic">PARIS, FRANCE</span>
               </div>
-              <div class="md:w-3/5 p-8 text-white flex flex-col justify-between relative overflow-hidden" style="background-color:#0f3c7e;">
+              <div class="md:w-3/5 p-8 text-white flex flex-col justify-between relative overflow-hidden"
+                style="background-color:#0f3c7e;">
                 <div class="relative z-10">
                   <h3 class="font-headline-md text-headline-md mb-4">Strategic Autonomy Summit: Defending the Single
                     Market</h3>
