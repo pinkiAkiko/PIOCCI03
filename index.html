@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Global Commerce Chamber | Institutional Excellence</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-container-high": "#eae8e7",
+            "primary-fixed-dim": "#c0c1ff",
+            "on-primary": "#ffffff",
+            "surface-bright": "#fbf9f8",
+            "outline-variant": "#c7c5d3",
+            "on-surface": "#1b1c1c",
+            "surface-variant": "#e4e2e2",
+            "on-error-container": "#93000a",
+            "on-secondary": "#ffffff",
+            "primary": "#002452",
+            "surface-tint": "#5356a6",
+            "secondary-container": "#C84000",
+            "on-primary-fixed": "#0b0961",
+            "primary-fixed": "#e1e0ff",
+            "surface": "#e4fdff",
+            "on-tertiary-fixed-variant": "#444650",
+            "on-tertiary-container": "#8f919c",
+            "tertiary-fixed-dim": "#c4c6d1",
+            "tertiary-container": "#272a33",
+            "surface-container-highest": "#e4e2e2",
+            "surface-container-low": "#f5f3f3",
+            "on-primary-fixed-variant": "#3b3d8d",
+            "surface-container-lowest": "#ffffff",
+            "inverse-on-surface": "#f2f0f0",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed": "#191b24",
+            "inverse-surface": "#303030",
+            "primary-container": "#002452",
+            "on-secondary-fixed": "#410005",
+            "surface-container": "#efeded",
+            "on-secondary-fixed-variant": "#930015",
+            "on-tertiary": "#ffffff",
+            "background": "#fbf9f8",
+            "on-secondary-container": "#fffbff",
+            "secondary-fixed-dim": "#ffb3ae",
+            "on-primary-container": "#878ade",
+            "on-error": "#ffffff",
+            "on-background": "#1b1c1c",
+            "inverse-primary": "#c0c1ff",
+            "secondary-fixed": "#ffdad7",
+            "outline": "#777682",
+            "on-surface-variant": "#464651",
+            "deep-navy": "#0a152b",
+            "tertiary-fixed": "#e1e2ee",
+            "surface-dim": "#dbd9d9",
+            "error": "#ba1a1a",
+            "tertiary": "#13161e",
+            "secondary": "#FF3D00"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "stack-lg": "64px",
+            "stack-md": "24px",
+            "gutter-grid": "24px",
+            "stack-sm": "8px",
+            "section-padding": "80px",
+            "margin-page": "3.5vw"
+          },
+          "fontFamily": {
+            "label-caps": ["GT America", "Inter", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
+            "headline-xl": ["Tobias", "Times New Roman", "Georgia", "serif"],
+            "headline-md": ["Tobias", "Times New Roman", "Georgia", "serif"],
+            "headline-lg-mobile": ["GT America", "Inter", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
+            "body-md": ["GT America", "Inter", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
+            "body-lg": ["GT America", "Inter", "Helvetica", "Arial", "Lucida Grande", "sans-serif"],
+            "headline-lg": ["GT America", "Inter", "Helvetica", "Arial", "Lucida Grande", "sans-serif"]
+          },
+          "fontSize": {
+            "label-caps": ["13px", { "lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "700" }],
+            "headline-xl": ["68px", { "lineHeight": "1.0", "letterSpacing": "-0.045em", "fontWeight": "300" }],
+            "headline-md": ["28px", { "lineHeight": "1.25", "letterSpacing": "-0.017em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["32px", { "lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "300" }],
+            "body-md": ["20px", { "lineHeight": "1.4", "letterSpacing": "-0.016em", "fontWeight": "395" }],
+            "body-lg": ["19px", { "lineHeight": "1.4", "letterSpacing": "-0.013em", "fontWeight": "300" }],
+            "headline-lg": ["29px", { "lineHeight": "1.1", "letterSpacing": "-0.024em", "fontWeight": "700" }]
+          }
+        },
+      },
+    }
+  </script>
+  <!-- styles → style.css -->
+</head>
+
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary selection:text-white">
+  <!-- Top Navigation Anchor (As per JSON) -->
+  <header class="border-b border-outline-variant/30 sticky top-0 z-50 shadow-sm" style="background-color: #ffffff;">
+    <nav class="flex justify-between items-center w-full px-margin-page py-4 mx-auto">
+      <div class="flex items-center gap-4">
+        <img alt="PIOCCI Logo" src="logo.png" class="h-16 w-auto object-contain flex-shrink-0" />
+        <div class="flex flex-col leading-tight select-none" style="font-family: 'Poppins', sans-serif;">
+          <span
+            style="font-size:20px;font-weight:500;color:#000000;letter-spacing:.01em;text-transform:uppercase;line-height:1.15;">People
+            of Indian Origin</span>
+          <span
+            style="font-size:18px;font-weight:400;color:#000000;letter-spacing:.01em;text-transform:uppercase;line-height:1.2;">Chamber
+            of Commerce and Industry</span>
+        </div>
+      </div>
+      <!-- Center nav links -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Home</a>
+        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">About Us</a>
+        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Events</a>
+        <a href="#" class="font-label-caps text-label-caps text-[13px] text-on-surface hover:text-secondary transition-colors duration-200 uppercase tracking-widest">Gallery</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#"
+          class="hidden sm:inline-block font-label-caps text-label-caps px-8 py-3 transition-all duration-200 text-[14px]"
+          style="border:2px solid #FF3D00;color:#FF3D00;"
+          onmouseover="this.style.background='#FF3D00';this.style.color='#fff'"
+          onmouseout="this.style.background='transparent';this.style.color='#FF3D00'">Membership</a>
+        <button id="navToggle" onclick="toggleCircleNav()" aria-label="Open navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Backdrop (click to close) -->
+  <div id="navOverlay" onclick="closeCircleNav()"></div>
+
+  <!--
+    QUARTER-CIRCLE NAV
+    Each .arc-item is anchored at right:0 top:0 (the top-right corner = circle centre).
+    transform-origin: right top  → rotating the arm like a clock hand.
+    The arm extends LEFT by 400px (≈ clip radius).
+    Text is left-aligned, so it STARTS at the arc edge and reads toward the centre.
+    --angle drives both the rotation and the stagger-slide.
+  -->
+  <nav id="circleNav" aria-label="Site navigation">
+    <!-- X button — top-right corner of the visible circle -->
+    <button id="circleCloseBtn" onclick="closeCircleNav()" aria-label="Close navigation">✕</button>
+    <ul>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">Home</a></li>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">About Us</a></li>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">Events</a></li>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">Gallery</a></li>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">Membership</a></li>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">Biennial 2025</a></li>
+      <li class="arc-item"><a href="#" class="arc-link" onclick="closeCircleNav()">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="flex">
+    <!-- Sidebar Navigation (As per JSON) -->
+    <!-- Main Content Canvas -->
+    <main class="w-full">
+      <!-- Hero Section — split layout -->
+      <section class="flex flex-col md:flex-row" style="min-height:90vh;">
+        <!-- Left: dark panel, text pinned to bottom -->
+        <div class="md:w-1/2 flex flex-col justify-end px-[4vw] pb-16 md:pb-15" style="background-color: #002452;">
+          <div>
+            <h1 class="leading-tight mb-6"
+              style="color:#ffffff; font-family: var(--sans); font-feature-settings: 'kern', 'liga', 'ss01'; font-weight: 400; font-size: 5.2rem; letter-spacing: -.01em; line-height: .97;">
+              The Global Voice
+              of the Indian Diaspora
+              in Business.
+            </h1>
+            <!-- <p class="text-white/80 font-body-md text-body-md mb-8 max-w-lg leading-relaxed">
+              PIOCCI is the global chamber of commerce for the Indian diaspora — bringing together entrepreneurs,
+              industry leaders, professionals and institutions to foster trade, investment and partnerships across 50+
+              countries.
+            </p> -->
+            <button
+              class="bg-secondary hover:opacity-90 text-white font-label-caps text-label-caps py-4 px-8 btn-diagonal transition-all mt-4">
+              JOIN THE MOVEMENT
+            </button>
+          </div>
+        </div>
+        <!-- Right: full-bleed image -->
+        <div class="md:w-1/2 relative overflow-hidden" style="min-height:420px;">
+          <img alt="PIOCCI Global Business Networking" class="absolute inset-0 w-full h-full object-cover object-center"
+            src="assets/gettyimages002.jpg" />
+        </div>
+      </section>
+      <!-- Strategic Initiatives: Horizontal Bento Grid -->
+      <section class="bg-white py-section-padding">
+        <div class="px-margin-page max-w-[1440px] mx-auto">
+          <div
+            class="flex flex-col md:flex-row justify-between items-end mb-stack-lg border-b border-outline-variant/30 pb-6">
+            <div>
+              <span class="font-label-caps text-label-caps text-secondary uppercase block mb-2">Strategic Vision</span>
+              <h2 class="font-headline-lg text-headline-lg text-on-surface">Initiatives of the Chamber</h2>
+            </div>
+          </div>
+          <!-- Magazine grid: [LARGE left] | [2×2 small right] -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-0">
+
+            <!-- ── LEFT: Large featured card ── -->
+            <div class="md:col-span-5 group cursor-pointer md:pr-8 md:border-r border-outline-variant/30">
+              <div class="relative overflow-hidden mb-5" style="aspect-ratio:3/2;">
+                <img alt="ARSP and PIOCCI with Mahatma Gandhi Institute"
+                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  src="assets/icci-management.jpg" />
+              </div>
+              <span class="inline-block font-label-caps text-label-caps mb-4 px-2 py-0.5"
+                style="border:1px solid #FF3D00;color:#FF3D00;">COLLABORATION</span>
+              <h3
+                class="font-headline-lg text-headline-lg text-on-surface leading-snug group-hover:text-secondary transition-colors"
+                style="font-family:Tobias,'Times New Roman',Georgia,serif;font-weight:400; font-size:35px;">
+                ARSP &amp; PIOCCI — In Association with Mahatma Gandhi Institute &amp; Pravasi Ghat Trust</h3>
+              <p class="font-body-md text-body-md mt-4 text-on-surface-variant">A landmark collaboration uniting
+                diaspora
+                institutions to strengthen India's global cultural and economic ties through joint programming,
+                scholarship, and advocacy.</p>
+              <span class="block mt-5 font-label-caps text-label-caps text-on-surface-variant/60 text-[11px]">PIOCCI
+                Collaboration Initiative</span>
+            </div>
+
+            <!-- ── RIGHT: 2×2 grid of small cards ── -->
+            <div
+              class="md:col-span-7 md:pl-8 grid grid-cols-2 gap-x-6 gap-y-8 border-t md:border-t-0 border-outline-variant/30 pt-8 md:pt-0">
+
+              <!-- Card 1 — Dubai Event -->
+              <div class="group cursor-pointer">
+                <div class="relative overflow-hidden mb-3" style="aspect-ratio:4/3;">
+                  <img alt="Event in Dubai"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Event_In_Dubai_25th_June_2019.png" />
+                </div>
+                <span class="inline-block font-label-caps text-label-caps mb-2 px-2 py-0.5 text-[11px]"
+                  style="border:1px solid #FF3D00;color:#FF3D00;">EVENT</span>
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface leading-snug group-hover:text-secondary transition-colors text-[15px]">
+                  Event In Dubai — 25th June 2019</h3>
+                <span class="block mt-2 font-label-caps text-label-caps text-on-surface-variant/60 text-[11px]">PIOCCI
+                  Gulf Chapter · 2019</span>
+              </div>
+
+              <!-- Card 2 — Biennial 2025 -->
+              <div class="group cursor-pointer">
+                <div class="relative overflow-hidden mb-3" style="aspect-ratio:4/3;">
+                  <img alt="PIOCCI Biennial Conference 2025"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/img3.jpeg" />
+                </div>
+                <span class="inline-block font-label-caps text-label-caps mb-2 px-2 py-0.5 text-[11px]"
+                  style="border:1px solid #FF3D00;color:#FF3D00;">CONFERENCE</span>
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface leading-snug group-hover:text-secondary transition-colors text-[15px]">
+                  PIOCCI Biennial Conference 2025 — Global Diaspora Summit</h3>
+                <span class="block mt-2 font-label-caps text-label-caps text-on-surface-variant/60 text-[11px]">PIOCCI
+                  International · 2025</span>
+              </div>
+
+              <!-- Card 3 — HP CM -->
+              <div class="group cursor-pointer">
+                <div class="relative overflow-hidden mb-3" style="aspect-ratio:4/3;">
+                  <img alt="Himachal Pradesh CM meets PIOCCI Gulf Chapter in Dubai"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Himachal_Pradesh_CM_meets_PIOCCI_Gulf_Chapter_in_Dubai.png" />
+                </div>
+                <span class="inline-block font-label-caps text-label-caps mb-2 px-2 py-0.5 text-[11px]"
+                  style="border:1px solid #FF3D00;color:#FF3D00;">DIPLOMACY</span>
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface leading-snug group-hover:text-secondary transition-colors text-[15px]">
+                  Himachal Pradesh CM meets PIOCCI Gulf Chapter in Dubai</h3>
+                <span class="block mt-2 font-label-caps text-label-caps text-on-surface-variant/60 text-[11px]">PIOCCI
+                  Gulf Chapter · Dubai</span>
+              </div>
+
+              <!-- Card 4 — GITEX 2023 -->
+              <div class="group cursor-pointer">
+                <div class="relative overflow-hidden mb-3" style="aspect-ratio:4/3;">
+                  <img alt="PIOCCI Conclave at India Club Dubai GITEX 2023"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Event_In_Dubai_25th_June_2019.png" />
+                </div>
+                <span class="inline-block font-label-caps text-label-caps mb-2 px-2 py-0.5 text-[11px]"
+                  style="border:1px solid #FF3D00;color:#FF3D00;">NETWORKING</span>
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface leading-snug group-hover:text-secondary transition-colors text-[15px]">
+                  PIOCCI Conclave at India Club, Dubai — GITEX 2023</h3>
+                <span class="block mt-2 font-label-caps text-label-caps text-on-surface-variant/60 text-[11px]">PIOCCI
+                  Gulf · GITEX 2023</span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Executive Briefings & Diagonal Side Section -->
+      <section class="bg-surface-container-low py-section-padding">
+        <div class="px-margin-page max-w-[1440px] mx-auto grid grid-cols-12 gap-gutter-grid">
+          <div class="col-span-12 lg:col-span-8">
+            <span class="font-label-caps text-label-caps text-secondary mb-4 block">Latest Updates</span>
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-stack-md">Global Chapters Updates</h2>
+            <!-- Updates List -->
+            <div class="flex flex-col gap-0">
+              <article
+                class="group py-8 border-t border-outline-variant/40 flex justify-between items-start hover:bg-primary-fixed/20 transition-all px-4 -mx-4">
+                <div class="flex flex-col gap-2">
+                  <span class="font-label-caps text-label-caps text-primary-container">India</span>
+                  <h4 class="font-headline-md text-headline-md group-hover:text-secondary transition-colors">Minister of
+                    State at PIOCCI Conclave, Bharat Mandapam</h4>
+                  <p
+                    class="font-body-md text-[18px] leading-[1.4] tracking-[-0.02em] font-weight-[200] text-on-surface-variant max-w-2xl">
+                    Minister of State of External Affairs Smt. Meenkashi
+                    Lekhi at PIOCCI conclave at IndiaSoft event at Bharat Mandapam, Delhi.</p>
+                </div>
+                <span
+                  class="material-symbols-outlined text-secondary opacity-0 group-hover:opacity-100 transition-opacity"
+                  data-icon="north_east">north_east</span>
+              </article>
+              <article
+                class="group py-8 border-t border-outline-variant/40 flex justify-between items-start hover:bg-primary-fixed/20 transition-all px-4 -mx-4">
+                <div class="flex flex-col gap-2">
+                  <span class="font-label-caps text-label-caps text-primary-container">Dubai</span>
+                  <h4 class="font-headline-md text-headline-md group-hover:text-secondary transition-colors">PIOCCI
+                    Conclave at the India Club, Dubai — GITEX 2023</h4>
+                  <p
+                    class="font-body-md text-[17.5px] leading-[1.4] tracking-[-0.02em] font-weight-[200] text-on-surface-variant max-w-2xl">
+                    PIOCCI Conclave at the India Club, Dubai, with
+                    international and PIOCCI Gulf members and Indian startups along with ESC (Indian Ministry of
+                    Commerce and Industry) and Madhya Pradesh state officials at the prestigious Gulf Information
+                    Technology Exhibition (GITEX) event in Oct. 2023.</p>
+                </div>
+                <span
+                  class="material-symbols-outlined text-secondary opacity-0 group-hover:opacity-100 transition-opacity"
+                  data-icon="north_east">north_east</span>
+              </article>
+            </div>
+            <button
+              class="mt-stack-md border border-primary text-primary font-label-caps text-label-caps py-4 px-8 btn-diagonal hover:bg-primary hover:text-white transition-all">
+              VIEW ALL UPDATES
+            </button>
+          </div>
+          <!-- Diagonal Sidebar -->
+          <div
+            class="col-span-12 lg:col-span-4 bg-primary-container text-white p-12 relative overflow-hidden flex flex-col justify-center">
+            <div class="absolute top-0 right-0 w-32 h-32"
+              style="clip-path: polygon(100% 0, 100% 100%, 0 0);background:rgb(252,175,23);"></div>
+            <h3 class="font-headline-md text-headline-md mb-6 relative z-10">Global Chapters</h3>
+            <ul class="flex flex-col gap-4 relative z-10">
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">Africa</a></li>
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">America</a></li>
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">Asia</a></li>
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">Europe</a></li>
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">Latin America &amp; Caribbean</a></li>
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">Oceania</a></li>
+              <li><a
+                  class="font-label-caps text-label-caps hover:text-secondary transition-colors border-b border-white/10 pb-2 block"
+                  href="#">South America</a></li>
+            </ul>
+            <div class="mt-stack-lg border-l-4 border-secondary pl-6">
+              <p class="font-body-md text-body-md italic text-primary-fixed-dim">"Our strength lies in our collective
+                strategic intelligence and institutional agility."</p>
+              <p class="mt-4 font-label-caps text-label-caps uppercase">— Chamber Chairman</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Videos -->
+      <section class="bg-primary py-14">
+        <div class="px-margin-page max-w-[1440px] mx-auto">
+
+          <!-- Header -->
+          <div class="flex justify-between items-center mb-12">
+            <div>
+              <span class="font-label-caps text-label-caps block mb-1" style="color:#ff7a3d;">Media Library</span>
+              <h2 class="font-headline-lg text-headline-lg text-white">Featured Videos</h2>
+            </div>
+            <a class="font-label-caps text-label-caps hidden md:block" href="#"
+              style="color:#ff7a3d;border-bottom:1.5px solid #ff7a3d;">VIEW ALL VIDEOS</a>
+          </div>
+
+          <!-- Single row: Large (col-7) + 3 compact stacked items (col-5) -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+
+            <!-- Large featured -->
+            <div class="md:col-span-7 group cursor-pointer">
+              <div class="relative overflow-hidden" style="aspect-ratio:16/9;">
+                <img alt="PIOCCI Conclave at Bharat Mandapam"
+                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  src="assets/img3.jpeg" />
+                <div class="absolute inset-0 bg-black/25 group-hover:bg-black/10 transition-all duration-300"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div
+                    class="w-14 h-14 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"
+                    style="background:#FF3D00;box-shadow:0 0 0 10px rgba(255,87,34,0.18);">
+                    <span class="material-symbols-outlined text-white text-2xl"
+                      style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                  </div>
+                </div>
+                <span
+                  class="absolute bottom-2 right-2 bg-black/75 text-white text-[11px] font-bold px-2 py-0.5">12:34</span>
+              </div>
+              <div class="mt-3">
+                <span class="font-label-caps text-label-caps block mb-1 text-[11px]" style="color:#ff7a3d;">CONCLAVE ·
+                  DELHI</span>
+                <h3 class="font-headline-md text-headline-md text-white leading-snug"
+                  onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                  style="cursor:pointer;transition:color .2s;">
+                  PIOCCI Conclave — IndiaSoft, Bharat Mandapam</h3>
+                <p class="font-body-md text-[14px] leading-[1.4] tracking-[-0.02em] text-white/55 mt-2">Minister of
+                  State of External Affairs Smt.
+                  Meenakashi Lekhi addresses the PIOCCI diaspora conclave.</p>
+              </div>
+            </div>
+
+            <!-- Right: scrollable list — height matches left column via CSS grid stretch -->
+            <div class="md:col-span-5 flex flex-col divide-y divide-white/10 overflow-y-auto video-list-scroll"
+              style="scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.2) transparent; max-height: 415px;">
+
+              <!-- Item 1 -->
+              <div class="group cursor-pointer flex gap-3 pb-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="PIOCCI Gulf Chapter Dubai GITEX"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Event_In_Dubai_25th_June_2019.png" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">08:17</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">GULF · GITEX 2023</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">PIOCCI Conclave at India Club, Dubai</h4>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="group cursor-pointer flex gap-3 py-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="ARSP PIOCCI Mahatma Gandhi Institute"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/icci-management.jpg" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">06:52</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">COLLABORATION</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">ARSP × PIOCCI — Mahatma Gandhi Institute</h4>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="group cursor-pointer flex gap-3 py-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="HP CM meets PIOCCI Gulf Chapter"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Himachal_Pradesh_CM_meets_PIOCCI_Gulf_Chapter_in_Dubai.png" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">05:10</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">DIPLOMACY · DUBAI</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">HP CM meets PIOCCI Gulf Chapter</h4>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="group cursor-pointer flex gap-3 py-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="PIOCCI Biennial Conference 2025"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/img3.jpeg" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">14:22</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">CONFERENCE · 2025</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">PIOCCI Biennial Conference — Global Diaspora Summit</h4>
+                </div>
+              </div>
+
+              <!-- Item 5 -->
+              <div class="group cursor-pointer flex gap-3 py-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="Minister of State at PIOCCI Conclave"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Event_In_Dubai_25th_June_2019.png" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">09:45</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">INDIA · DELHI</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">Minister of State at PIOCCI Conclave, Bharat Mandapam</h4>
+                </div>
+              </div>
+
+              <!-- Item 6 -->
+              <div class="group cursor-pointer flex gap-3 py-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="PIOCCI Canada Germany Australia Members"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/icci-management.jpg" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">11:08</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">GLOBAL CHAPTERS</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">PIOCCI Members Meet — Canada, Germany &amp; Australia</h4>
+                </div>
+              </div>
+
+              <!-- Item 7 -->
+              <div class="group cursor-pointer flex gap-3 py-4">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="PIOCCI UK Chapter Annual Meet"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/Himachal_Pradesh_CM_meets_PIOCCI_Gulf_Chapter_in_Dubai.png" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">07:33</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">EUROPE · UK</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">PIOCCI UK Chapter — Annual Networking Summit</h4>
+                </div>
+              </div>
+
+              <!-- Item 8 -->
+              <div class="group cursor-pointer flex gap-3 pt-4 pb-2">
+                <div class="relative flex-shrink-0 overflow-hidden" style="width:120px;aspect-ratio:16/9;">
+                  <img alt="PIOCCI Singapore Trade Forum"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="assets/img3.jpeg" />
+                  <div class="absolute inset-0 bg-black/20 flex items-center justify-center">
+                    <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background:#FF3D00;">
+                      <span class="material-symbols-outlined text-white text-sm"
+                        style="font-variation-settings:'FILL' 1,'wght' 700;">play_arrow</span>
+                    </div>
+                  </div>
+                  <span class="absolute bottom-1 right-1 bg-black/75 text-white text-[9px] font-bold px-1">10:15</span>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <span class="font-label-caps text-[10px] block mb-1" style="color:#ff7a3d;">ASIA · SINGAPORE</span>
+                  <h4 class="text-white text-[14px] font-semibold leading-snug line-clamp-2"
+                    onmouseover="this.style.color='#ff7a3d'" onmouseout="this.style.color='#fff'"
+                    style="transition:color .2s;">PIOCCI Singapore Trade &amp; Investment Forum</h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Elite Assemblies (Events) -->
+      <section class="bg-white py-section-padding">
+        <div class="px-margin-page max-w-[1440px] mx-auto">
+          <div class="flex justify-between items-end mb-stack-lg">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface">Events</h2>
+            <a class="font-label-caps text-label-caps text-secondary border-b border-secondary pb-1" href="#">VIEW
+              CALENDAR</a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter-grid">
+            <!-- Event 1 -->
+            <div class="bg-primary flex flex-col md:flex-row h-full overflow-hidden group">
+              <div class="md:w-2/5 p-8 flex flex-col justify-between bg-primary-container text-white relative">
+                <div class="absolute -top-10 -left-10 w-32 h-32 bg-secondary rotate-45"></div>
+                <div class="relative z-10">
+                  <span class="font-label-caps text-label-caps text-secondary-fixed block mb-2">JUNE 2026</span>
+                  <span class="font-headline-xl text-headline-xl block">22</span>
+                </div>
+                <span class="font-label-caps text-label-caps text-on-primary-container italic">PARIS, FRANCE</span>
+              </div>
+              <div class="md:w-3/5 p-8 text-white flex flex-col justify-between relative overflow-hidden" style="background-color:#0f3c7e;">
+                <div class="relative z-10">
+                  <h3 class="font-headline-md text-headline-md mb-4">Strategic Autonomy Summit: Defending the Single
+                    Market</h3>
+                  <p class="font-body-md text-body-md text-on-primary/70 mb-6">A high-level assembly of industry CEOs
+                    and
+                    policy makers to discuss market integration.</p>
+                </div>
+                <button
+                  class="bg-white text-primary font-label-caps text-label-caps py-4 px-6 self-start btn-diagonal group-hover:bg-secondary group-hover:text-white transition-all">
+                  REGISTER NOW
+                </button>
+              </div>
+            </div>
+            <!-- Event 2 -->
+            <div class="bg-surface-container flex flex-col md:flex-row h-full overflow-hidden group">
+              <div class="md:w-2/5 p-8 flex flex-col justify-between bg-outline-variant text-primary relative">
+                <div class="relative z-10">
+                  <span class="font-label-caps text-label-caps text-primary block mb-2">JULY 2026</span>
+                  <span class="font-headline-xl text-headline-xl block">08</span>
+                </div>
+                <span class="font-label-caps text-label-caps text-primary italic">BERLIN, GERMANY</span>
+              </div>
+              <div
+                class="md:w-3/5 p-8 text-primary flex flex-col justify-between bg-white relative overflow-hidden border border-outline-variant">
+                <div class="relative z-10">
+                  <h3 class="font-headline-md text-headline-md mb-4">The Green Finance Forum: Mobilizing Institutional
+                    Capital</h3>
+                  <p class="font-body-md text-body-md text-deep-navy mb-6">Exploring the intersection of
+                    institutional investment and net-zero infrastructure.</p>
+                </div>
+                <button
+                  class="bg-primary text-white font-label-caps text-label-caps py-4 px-6 self-start btn-diagonal hover:bg-secondary transition-all">
+                  REQUEST ACCESS
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Footer Bar -->
+      <section class="bg-secondary py-12 px-margin-page">
+        <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-stack-md">
+          <div class="text-white">
+            <h3 class="font-headline-md text-headline-md mb-2" style="font-weight:400;">Stay on the move.</h3>
+            <p class="font-body-md text-body-md opacity-90">Institutional insights delivered directly to your executive
+              suite.</p>
+          </div>
+          <div class="flex w-full md:w-auto">
+            <input
+              class="bg-white/10 border-white/30 text-white placeholder:text-white/60 focus:ring-0 focus:border-white p-4 w-full md:w-80"
+              placeholder="Your corporate email" type="email" />
+            <button
+              class="bg-white text-secondary font-label-caps text-label-caps px-8 py-4 hover:bg-primary-container hover:text-white transition-all uppercase font-bold">Subscribe</button>
+          </div>
+        </div>
+      </section>
+      <!-- Footer (As per JSON) -->
+      <footer class="bg-on-surface dark:bg-surface-container-lowest w-full py-section-padding px-margin-page">
+        <div class="w-full flex flex-col md:flex-row justify-between items-start gap-stack-lg max-w-[1440px] mx-auto">
+          <div class="flex flex-col gap-6 max-w-sm">
+            <div class="font-headline-md text-headline-md text-on-primary dark:text-primary font-bold">Global Commerce
+              Chamber</div>
+            <p class="text-surface-variant dark:text-on-surface-variant font-body-md">Empowering global enterprise
+              through collective strategy and institutional excellence.</p>
+            <div class="flex gap-4">
+              <span class="material-symbols-outlined text-surface-variant cursor-pointer hover:text-secondary"
+                data-icon="share">share</span>
+              <span class="material-symbols-outlined text-surface-variant cursor-pointer hover:text-secondary"
+                data-icon="public">public</span>
+              <span class="material-symbols-outlined text-surface-variant cursor-pointer hover:text-secondary"
+                data-icon="rss_feed">rss_feed</span>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-16">
+            <div class="flex flex-col gap-4">
+              <span class="font-label-caps text-label-caps text-surface">RESOURCES</span>
+              <a class="text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Annual
+                Reports</a>
+              <a class="text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Media Kit</a>
+              <a class="text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Compliance</a>
+            </div>
+            <div class="flex flex-col gap-4">
+              <span class="font-label-caps text-label-caps text-surface">LEGAL</span>
+              <a class="text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Privacy
+                Protocol</a>
+              <a class="text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Terms of
+                Service</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="max-w-[1440px] mx-auto mt-stack-lg pt-stack-md border-t border-outline-variant/20 flex flex-col md:flex-row justify-between text-surface-variant font-label-caps text-label-caps">
+          <span>© 2024 Global Commerce Chamber. All Rights Reserved. Institutional Excellence through
+            Collaboration.</span>
+          <div class="flex gap-8 mt-4 md:mt-0">
+            <span>EST. 1919</span>
+            <span>V.2.0.26</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <!-- scripts → script.js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
